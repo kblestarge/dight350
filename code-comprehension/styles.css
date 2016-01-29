@@ -1,0 +1,20 @@
+.clean_center{
+	background-color: #E0E0E0;
+	border: 1px solid;
+	margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    border-radius: 15px;
+    padding: 30px;
+    overflow: auto;
+}
+
+.comment{
+	background-color: #404040  ;
+	color: white;
+	padding-left:20px;
+	border-radius: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border: 1px solid;
+}

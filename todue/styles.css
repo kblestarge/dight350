@@ -1,0 +1,59 @@
+.success-label{
+	color: green;
+	text-align: center;
+}
+
+.centered{
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top:30px;
+	margin-bottom:30px;
+	padding: 30px;
+	padding-top: 50px;
+	padding-left: 80px;
+	padding-right: 80px;
+}
+
+.centered2{
+	width: 320px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top:30px;
+	margin-bottom:30px;
+	padding: 30px;
+	padding-top: 20px;
+	padding-left: 20px;
+	border-radius: 5px;
+}
+
+.btnCheck{
+	width: 30px;
+	height: 30px;
+  	padding: 0 5px 0 0;
+	background-image: Checkmark.png;
+	display: block;
+	clear: left;
+	float: left;
+}
+
+.left{
+	text-align: left;
+}
+
+.bk{
+	background-image: url("grass2.png") !important;
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+.bk2{
+	background-image: url("pap2.png") !important;
+	background-size: 500px;
+	background-repeat: no-repeat;
+}
+
+.bk3{
+	background-color: white;
+	box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+}

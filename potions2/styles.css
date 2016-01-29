@@ -1,0 +1,160 @@
+@font-face {
+  font-family: 'Play';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Play'), url(http://fonts.gstatic.com/s/play/v6/ldG7L03dPLLtYDea50KtQfesZW2xOQ-xsNqO47m55DA.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+body {
+	font: 14px/1.5 'Play',arial,sans-serif;
+	width: 1000px;
+	margin: 30px auto;
+}
+
+h1 {
+	text-align: center;
+	font-variant: small-caps;
+	border-bottom: 5px double rgb(50,50,50);
+}
+
+table { 
+	width: 100%; 
+	border-collapse: collapse;
+}
+
+th { 
+	font-size: 18px;
+}
+
+td { padding: 15px; }
+
+th:first-child {
+	width: 150px;
+}
+
+tr:nth-child(odd) {
+	background: rgba(50,50,50,.25);
+}
+
+tr:nth-child(2),
+tr:nth-last-child(2) {
+	border-bottom: 1px solid rgb(50,50,50);
+}
+
+tr:first-child,
+tr:last-child,
+tr:last-child td,
+tr:first-child td { 
+	background: none; 
+	border: none;
+}
+
+td {
+	border-left: 1px solid rgb(50,50,50);
+	border-right: 1px solid rgb(50,50,50);
+}
+
+.btn_action {
+	display: inline-block;
+	width: 30%;
+	font-size: 16px;
+	text-transform: uppercase;
+	line-height: 1.5;
+	padding: 5px 0;
+	margin: 10px;
+	background: rgb(75,150,75);
+	color: rgb(200,200,200);
+	border: none;
+	border-radius: 5px;
+}
+
+#storeroom .btn_action {
+	display: block;
+	margin: 10px auto;
+}
+
+.btn_action.edit[disabled],
+.btn_action.edit[disabled]:hover,
+.btn_action.delete[disabled],
+.btn_action.delete[disabled]:hover {
+	cursor: auto;
+	background: rgb(220,220,220);
+	color: rgb(200,200,200);
+}
+
+.btn_action:hover {
+	cursor: pointer;
+	background: rgb(200,200,200);
+	color: rgb(75,150,75);
+}
+
+.btn_action.edit { background: rgb(150,150,75); }
+.btn_action.edit:hover { 
+	background: rgb(200,200,200); 
+	color: rgb(150,150,75);
+}
+
+.btn_action.delete { background: rgb(150,75,75); }
+.btn_action.delete:hover { 
+	background: rgb(200,200,200);
+	color: rgb(150,75,75); 
+}
+
+.toxic { color: rgb(200,0,0); }
+
+li { padding: 5px 0; }
+
+.centered { text-align: center; }
+
+.return {
+	display: inline-block;
+	padding: 15px;
+	background: rgb(50,50,50);
+	color: rgb(200,200,200);
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: center;
+	border-radius: 5px;
+}
+
+.return:hover {
+	background: rgb(200,200,200);
+	color: rgb(50,50,50);
+}
+
+.error {
+	text-align: center;
+	width: 50%;
+	margin: 10px auto;
+	border: 2px solid rgb(200,0,0);
+	color: rgb(200,0,0);
+	border-radius: 5px;
+	padding: 20px;
+}
+
+label { display: block; }
+
+#storeroom p {
+	width: 50%;
+	float: left;
+}
+
+input[type="text"] {
+	font: 15px 'Play',arial,sans-serif;
+	width: 75%;
+	height: 30px;
+	line-height: 30px;
+}
+
+.success-add,
+.success-delete,
+.success-edit {
+	text-align: center;
+	width: 50%;
+	margin: 10px auto;
+	border: 2px solid rgb(0,200,0);
+	color: rgb(0,200,0);
+	border-radius: 5px;
+	padding: 20px;
+}

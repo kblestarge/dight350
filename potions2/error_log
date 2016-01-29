@@ -1,0 +1,8 @@
+[09-Feb-2015 16:08:28 America/Denver] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'USERNAME'@'localhost' (using password: YES) in /home1/tardissh/public_html/dight350/lestarge/potions2/class.PotionShop.php on line 11
+[09-Feb-2015 21:29:52 America/Denver] PHP Notice:  Undefined variable: action in /home1/tardissh/public_html/dight350/lestarge/potions2/store-room.php on line 92
+[09-Feb-2015 21:29:52 America/Denver] PHP Notice:  Undefined variable: btn_value in /home1/tardissh/public_html/dight350/lestarge/potions2/store-room.php on line 129
+[09-Feb-2015 21:38:43 America/Denver] PHP Notice:  Undefined variable: action in /home1/tardissh/public_html/dight350/lestarge/potions2/store-room.php on line 92
+[09-Feb-2015 21:38:43 America/Denver] PHP Notice:  Undefined variable: btn_value in /home1/tardissh/public_html/dight350/lestarge/potions2/store-room.php on line 129
+[09-Feb-2015 21:49:58 America/Denver] PHP Notice:  Undefined variable: action in /home1/tardissh/public_html/dight350/lestarge/potions2/store-room.php on line 92
+[09-Feb-2015 21:49:58 America/Denver] PHP Notice:  Undefined variable: btn_value in /home1/tardissh/public_html/dight350/lestarge/potions2/store-room.php on line 129
+[09-Feb-2015 21:58:22 America/Denver] PHP Notice:  Undefined index: potion_id in /home1/tardissh/public_html/dight350/lestarge/potions2/store-room.php on line 25

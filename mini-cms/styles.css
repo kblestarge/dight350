@@ -1,0 +1,82 @@
+.nav_bar{
+	background-color: #666666;
+	height: 100%;
+	text-align: center;
+}
+
+.right_content{
+	background-color: #FFFFFF;
+}
+
+.left_btn{
+	width: 100%;
+	height: auto;
+	margin-bottom: 5px;
+	font-size: 16px;
+	white-space: pre-wrap;
+	word-wrap: break-word;
+}
+
+.left_drop{
+	width: 100%;
+	height: auto;
+	margin-bottom: 5px;
+	font-size: 16px;
+}
+
+.left_home{
+	width: 40%;
+	height: auto;
+	margin-bottom: 5px;
+	font-size: 16px;
+	white-space: pre-wrap;
+	word-wrap: break-word;
+}
+.title1{
+	color: white;
+	text-align: center;
+}
+
+html, body { 
+	height: 100%; 
+	margin: 0px; 
+	padding: 0px; 
+}
+
+.tags_edit{
+	width: 300px;
+	display: inline-block;
+}
+
+.status_edit{
+	width: 300px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+#title_edit{
+	margin-top: 15px;
+	height: 60px;
+	font-size: 35px;
+}
+
+#commentary_edit{
+	height: 300px;
+	font-size: 16px;
+	text-align:top;
+}
+
+.display_comments{
+	font-size: 16px;
+	font-family: "Verdana", Geneva, sans-serif;
+	white-space: pre-wrap;
+    white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+    white-space: -pre-wrap;      /* Opera 4-6 */
+    white-space: -o-pre-wrap;    /* Opera 7 */
+    word-wrap: break-word; 
+}
+
+.bottom_btn{
+	margin-right: 5px;
+	margin-bottom: 10px;
+}

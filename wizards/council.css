@@ -1,0 +1,12 @@
+body {
+	width: 900px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+tr:nth-child(even) { background: rgba(100,100,100,.25); }
